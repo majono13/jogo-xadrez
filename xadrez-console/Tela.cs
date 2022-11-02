@@ -1,5 +1,6 @@
 ﻿using System;
 using tabuleiro;
+
 namespace xadrez_console
 {
     internal class Tela
@@ -12,7 +13,7 @@ namespace xadrez_console
                 {
                     if (tab.peca(i, j) == null) Console.Write("- ");
 
-                   else Console.Write(tab.peca(i, j) + "");
+                   else Console.Write(tab.peca(i, j) + " ");
                 }
 
                 Console.WriteLine();
